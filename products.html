@@ -21,13 +21,16 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="#">Product Store</a>
+        <a class="navbar-brand" href="index.html">Product Store</a>
 
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,19 +38,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
+              <a class="nav-link active" href="products.html" aria-current="page">Products</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -63,25 +66,7 @@
       </div>
     </div>
 
-    <!-- Carousel -->
-    <div
-      id="productCarousel"
-      class="carousel slide container mt-4 mb-5"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="image" class="" alt="Slide 1" />
-        </div>
-
-        <div class="carousel-item">
-          <img src="image" class="" alt="Slide 2" />
-        </div>
-
-        <div class="carousel-item">
-          <img src="image" class="" alt="Slide 3" />
-        </div>
-      </div>
+    
 
       <button
         class="carousel-control-prev"
@@ -114,7 +99,7 @@
           <div class="card h-100">
             <img src="image1.jpg" class="laptop card-img-top" alt="Product" />
             <div class="card-body">
-              <h5 class="card-title">Laptop</h5>
+              <h5 class="card-title">MSI Laptop</h5>
               <p class="card-text">
                 High-performance laptop for work and gaming.
               </p>
@@ -132,7 +117,7 @@
               alt="Product"
             />
             <div class="card-body">
-              <h5 class="card-title">Smartphone</h5>
+              <h5 class="card-title">iphone 17 pro</h5>
               <p class="card-text">
                 Modern smartphone with amazing camera features.
               </p>
@@ -150,7 +135,7 @@
               alt="Product"
             />
             <div class="card-body">
-              <h5 class="card-title">Gaming Headphones</h5>
+              <h5 class="card-title">ROG Gaming Headphones</h5>
               <p class="card-text">
                 Wireless headphones with premium sound quality.
               </p>
@@ -168,7 +153,7 @@
               alt="Product"
             />
             <div class="card-body">
-              <h5 class="card-title">Smart Watch</h5>
+              <h5 class="card-title">Apple Watch</h5>
               <p class="card-text">Track fitness goals and daily activities.</p>
               <a href="#" class="btn btn-primary">Buy Now</a>
             </div>
@@ -180,7 +165,7 @@
           <div class="card h-100">
             <img src="image5.jpg" class="camera card-img-top" alt="Product" />
             <div class="card-body">
-              <h5 class="card-title">Camera</h5>
+              <h5 class="card-title">CANON g7x</h5>
               <p class="card-text">
                 Capture unforgettable moments in high resolution.
               </p>
@@ -194,7 +179,7 @@
           <div class="card h-100">
             <img src="image6.jpg" class="tablets card-img-top" alt="Product" />
             <div class="card-body">
-              <h5 class="card-title">Tablet</h5>
+              <h5 class="card-title">iPad</h5>
               <p class="card-text">
                 Perfect for entertainment and productivity.
               </p>
@@ -212,7 +197,7 @@
               alt="Product"
             />
             <div class="card-body">
-              <h5 class="card-title">projector</h5>
+              <h5 class="card-title">Aurzen Projector</h5>
               <p class="card-text">
                 Perfect for home theater and business presentations.
               </p>
